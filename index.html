@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Kavya M | Portfolio</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: radial-gradient(circle at top, #020617, #000);
+  color: #e5e7eb;
+}
+
+/* NAVBAR */
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  backdrop-filter: blur(12px);
+  background: rgba(2,6,23,0.75);
+  box-shadow: 0 5px 25px rgba(56,189,248,0.2);
+}
+
+.nav-container {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  padding: 15px 10px;
+}
+
+.nav-container a {
+  color: #94a3b8;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 30px;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+}
+
+/* Hover / Touch animation */
+.nav-container a:hover {
+  background: #38bdf8;
+  color: #020617;
+  transform: translateY(-2px);
+  box-shadow: 0 0 20px rgba(56,189,248,0.8);
+}
+
+/* HEADER */
+header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px;
+}
+
+header h1 {
+  font-size: 3.2rem;
+  color: #38bdf8;
+}
+
+header p {
+  margin-top: 15px;
+  font-size: 1.2rem;
+  max-width: 700px;
+}
+
+/* SECTIONS */
+section {
+  padding: 90px 12%;
+}
+
+h2 {
+  color: #38bdf8;
+  margin-bottom: 25px;
+  font-size: 2rem;
+}
+
+.card {
+  background: rgba(2,6,23,0.85);
+  padding: 25px;
+  border-radius: 15px;
+  margin-bottom: 25px;
+  box-shadow: 0 0 25px rgba(56,189,248,0.15);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 0 35px rgba(56,189,248,0.3);
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 25px;
+  color: #94a3b8;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .nav-container {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<!-- TOP NAVIGATION -->
+<nav>
+  <div class="nav-container">
+    <a href="#about">Objective</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#project">Project</a>
+    <a href="#certification">Certification</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<header>
+  <h1>Kavya M</h1>
+  <p>
+    Computer Science Undergraduate | AWS Certified Cloud Practitioner<br>
+    • Python • SQL • Cloud Computing
+  </p>
+</header>
+
+<section id="about">
+<h2>Career Objective</h2>
+<div class="card">
+Motivated and detail-oriented Computer Science undergraduate with strong skills in
+Cloud Computing (AWS Certified Cloud Practitioner), SQL, and Python.
+Seeking an entry-level role to apply my technical knowledge in cloud-based solutions
+while contributing effectively in a collaborative environment.
+</div>
+</section>
+
+<section id="education">
+<h2>Education</h2>
+<div class="card">
+<strong>PSGR Krishnammal College for Women</strong><br>
+B.Sc. Computer Science (2023–2026)<br>
+CGPA: 8.7
+</div>
+
+<div class="card">
+<strong>St. Joseph's Matriculation Higher Secondary School</strong><br>
+11th: 85% | 12th: 84%
+</div>
+</section>
+
+<section id="skills">
+<h2>Technical Skills</h2>
+<div class="card">
+<ul>
+<li>Python</li>
+<li>SQL</li>
+<li>AWS: EC2, S3, IAM, RDS</li>
+<li>MySQL</li>
+</ul>
+</div>
+</section>
+
+<section id="project">
+<h2>Academic Project</h2>
+<div class="card">
+<strong>Hospital Management System</strong><br><br>
+Designed a database system to manage hospital data.<br>
+<strong>Technology:</strong> MySQL
+</div>
+</section>
+
+<section id="certification">
+<h2>Certification</h2>
+<div class="card">
+AWS Certified Cloud Practitioner<br>
+<small>Issued: August 9, 2025</small>
+</div>
+</section>
+
+<section id="contact">
+<h2>Contact</h2>
+<div class="card">
+📞 +91 87780 70559<br>
+📧 kavyamurugan16@gmail.com<br>
+🔗 LinkedIn: <a href="https://www.linkedin.com/in/kavya-murugan" target="_blank" style="color:#38bdf8; text-decoration:underline;">kavya-murugan</a>
+</div>
+</section>
+
+<footer>
+© 2026 Kavya M
+</footer>
+
+</body>
+</html>
